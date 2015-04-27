@@ -131,8 +131,18 @@ This will download and install the latest version of the stand-alone WebDriver t
 ## Make It Yours
 Once you've got everything running and tested, you should probably rename your root module from the very cheesy `myApp` to something cool like `myCoolApp`. The script bewlow will do a regex replace in the javascript and html files for you.  
 
+Replace the `YOUR_APP_NAME` text in `package.json`. 
+
+To preview what will be changed, run:
+
 ```
-npm run replace myApp YOUR_APP_ROOT_NAME -r --include=app/**/*.js,app/**.*.html --exclude=app/bower_components
+npm run replace-name-preview
+```
+
+To make the changes:
+
+```
+npm run replace-name
 ```
 
 
