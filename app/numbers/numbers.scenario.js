@@ -4,22 +4,22 @@ describe('my app', function() {
 
     browser.get('index.html');
 
-    it('should automatically redirect to /home when location hash/fragment is empty', function() {
-        expect(browser.getLocationAbsUrl()).toMatch("/home");
+    beforeEach(function() {
+        browser.get('index.html#/number-generator');
     });
 
 
-    describe('home', function() {
+    it('should render our number generation page', function() {
 
-        beforeEach(function() {
-            browser.get('index.html#/home');
-        });
+        var firstNumberElement = element.all(by.css('h2')).first();
+
+        expect(firstNumberElement.getText()).toMatch("My current number is: 0");
+
+        var secondNumberElement = element.all(by.css('h2')).get(1);
+
+        expect(secondNumberElement.getText()).toMatch("My last number was: 0");
 
 
-        it('should render home when user navigates to /home', function() {
-            expect(element.all(by.css('h3')).first().getText()).
-                toMatch(/No Projects/);
-        });
 
     });
 

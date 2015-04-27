@@ -4,9 +4,9 @@ This project is an application skeleton for a typical [AngularJS](http://angular
 
 This seed wires together the basic app, one controller and one service.  I've opted to NOT put any sort of build functionality here. 
 
-## Angular Seed Differences
+## Getting Started
 
-To get you started you can simply clone the angular-seed repository and install the dependencies:
+To get you started you can simply clone the angular-seed-stylguided repository and install the dependencies:
 
 ### Prerequisites
 

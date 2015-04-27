@@ -9,7 +9,7 @@ describe('my app', function() {
     });
 
 
-    describe('home', function() {
+    describe('home content', function() {
 
         beforeEach(function() {
             browser.get('index.html#/home');
@@ -17,8 +17,8 @@ describe('my app', function() {
 
 
         it('should render home when user navigates to /home', function() {
-            expect(element.all(by.css('h3')).first().getText()).
-                toMatch(/No Projects/);
+            expect(element.all(by.css('h2')).first().getText()).
+                toMatch("I am Kaiser Sose");
         });
 
     });
