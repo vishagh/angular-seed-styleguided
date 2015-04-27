@@ -1,16 +1,10 @@
-# angular-seed — the seed for AngularJS apps
+# angular-papa-seed — the seed for AngularJS apps based on John Papa authored best practices
 
-This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
-You can use it to quickly bootstrap your angular webapp projects and dev environment for these
-projects.
+This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.  It has been forked from the [angular-seed] (https://github.com/angular/angular-seed) project and refactored to set up a very basic infrastructure using the best practices/style guide by John Papa -- [StyleGuide](https://github.com/johnpapa/angular-styleguide). 
 
-The seed contains a sample AngularJS application and is preconfigured to install the Angular
-framework and a bunch of development and testing tools for instant web development gratification.
+This seed wires together the basic app, one controller and one service.  I've opted to NOT put any sort of build functionality here. 
 
-The seed app doesn't do much, just shows how to wire two controllers and views together.
-
-
-## Getting Started
+## Angular Seed Differences
 
 To get you started you can simply clone the angular-seed repository and install the dependencies:
 
