@@ -20,7 +20,6 @@ describe('my app', function() {
         expect(secondNumberElement.getText()).toMatch("My last number was: 0");
 
 
-
     });
 
 });
