@@ -1,5 +1,5 @@
 (function () {
-
+    'use strict';
     angular.module('myApp.home')
         .controller('HomeCtrl',  HomeController);
 
@@ -7,10 +7,10 @@
 
     function HomeController() {
 
-        vm = this;
+        var vm = this;
 
-        this.name = 'Kaiser Sose';
-        this.number = '867-5309';
+        vm.name = 'Kaiser Sose';
+        vm.number = '867-5309';
 
-    };
+    }
 })();

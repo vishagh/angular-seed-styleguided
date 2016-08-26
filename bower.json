@@ -1,6 +1,6 @@
 {
-  "name": "angular-seed-styleguided",
-  "description": "A starter project for AngularJS",
+  "name": "angular-seed-styleguided-oclazyload",
+  "description": "A starter project for AngularJS and oclazyLoad",
   "version": "0.0.1",
   "homepage": "https://github.com/jshlyd/angular-seed-styleguided",
   "license": "MIT",
@@ -11,6 +11,7 @@
     "angular-mocks": "~1.4.0",
   	"angular-ui-router": "~0.2",
     "bootstrap": "~3.1",
-    "fontawesome": "~4.2.0"
+    "fontawesome": "~4.2.0",
+    "oclazyload":"~1.0.9"
   }
 }

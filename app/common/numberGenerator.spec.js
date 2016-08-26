@@ -1,3 +1,4 @@
+'use strict';
 describe( 'number generator service', function() {
 
   var numberGeneratorService;

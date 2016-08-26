@@ -1,5 +1,6 @@
+'use strict';
 describe('AppCtrl', function () {
-  
+
     describe('isCurrentUrl', function () {
         var AppCtrl, $location, $scope;
 

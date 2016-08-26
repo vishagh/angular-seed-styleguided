@@ -1,5 +1,5 @@
 (function () {
-
+    'use strict';
     angular.module('myApp.numbers')
     .controller('NumberCtrl',  NumberController);
 
@@ -7,7 +7,7 @@
 
     function NumberController(numberGeneratorService) {
 
-        vm = this;
+        var vm = this;
 
         //API
         vm.lastNumber = 0;
@@ -25,6 +25,6 @@
         }
 
 
-    };
+    }
 
 })();

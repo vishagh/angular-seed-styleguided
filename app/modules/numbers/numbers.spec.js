@@ -1,3 +1,4 @@
+'use strict';
 describe('numbers section', function () {
 
     beforeEach(module('myApp.numbers'));

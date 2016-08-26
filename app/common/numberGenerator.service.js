@@ -1,7 +1,7 @@
-(function() {
-    angular
-    .module('myApp.service.numberGenerator')
-    .factory('numberGeneratorService', NumberGeneratorService);
+(function () {
+    'use strict';
+    angular.module('myApp.service.numberGenerator',[])
+        .factory('numberGeneratorService', NumberGeneratorService);
 
     NumberGeneratorService.$inject = [];
 

@@ -1,5 +1,5 @@
 /* https://github.com/angular/protractor/blob/master/docs/getting-started.md */
-
+'use strict';
 describe('my app', function() {
 
     browser.get('index.html');

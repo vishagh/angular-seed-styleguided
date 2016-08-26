@@ -1,3 +1,4 @@
+'use strict';
 describe('home section', function () {
 
     beforeEach(module('myApp.home'));
