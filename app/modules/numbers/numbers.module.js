@@ -17,7 +17,7 @@
                 resolve: { // Any property in resolve should return a promise and is executed before the view is loaded
                     loadMyCtrl: ['$ocLazyLoad', function ($ocLazyLoad) {
                         // you can lazy load files for an existing module
-                        return $ocLazyLoad.load('numbers/numbers.controller.js');
+                        return $ocLazyLoad.load('modules/numbers/numbers.controller.js');
                     }]
                 },
                 data: {pageTitle: 'Numbers'}
