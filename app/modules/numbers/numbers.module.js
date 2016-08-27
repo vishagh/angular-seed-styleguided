@@ -8,10 +8,11 @@
     .config(['$stateProvider', function config($stateProvider) {
             $stateProvider.state('numbers', {
                 url: '/number-generator',
+                parent:'app',
                 views: {
-                    "main": {
+                    "": {
                         controller: 'NumberCtrl as numberCtrl',
-                        templateUrl: 'numbers/numbers.tpl.html'
+                        templateUrl: 'modules/numbers/numbers.tpl.html'
                     }
                 },
                 resolve: { // Any property in resolve should return a promise and is executed before the view is loaded

@@ -7,10 +7,11 @@
     .config(['$stateProvider', function config($stateProvider) {
             $stateProvider.state('home', {
                 url: '/home',
+                parent:'app',
                 views: {
-                    "main": {
+                    "": {
                         controller: 'HomeCtrl as homeCtrl',
-                        templateUrl: 'home/home.tpl.html'
+                        templateUrl: 'modules/home/home.tpl.html'
                     }
                 },
                 resolve: { // Any property in resolve should return a promise and is executed before the view is loaded
